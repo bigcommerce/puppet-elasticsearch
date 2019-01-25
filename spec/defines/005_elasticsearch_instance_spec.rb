@@ -809,7 +809,6 @@ describe 'elasticsearch::instance', :type => 'define' do
             -Dlog4j.skipJansi=true.
             -Dlog4j2.disable.jmx=true.
             -XX:\+AlwaysPreTouch.
-            -XX:\+DisableExplicitGC.
             -XX:\+HeapDumpOnOutOfMemoryError.
             -XX:\+UseCMSInitiatingOccupancyOnly.
             -XX:\+UseConcMarkSweepGC.
@@ -846,7 +845,6 @@ describe 'elasticsearch::instance', :type => 'define' do
             -Dlog4j.skipJansi=true.
             -Dlog4j2.disable.jmx=true.
             -XX:\+AlwaysPreTouch.
-            -XX:\+DisableExplicitGC.
             -XX:\+HeapDumpOnOutOfMemoryError.
             -XX:\+UseCMSInitiatingOccupancyOnly.
             -XX:\+UseConcMarkSweepGC.
