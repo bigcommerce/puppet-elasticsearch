@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', '..'))
+
 require 'puppet/provider/elastic_yaml'
 
 # Provider to help manage file-based Shield/X-Pack user/role configuration
